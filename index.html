@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221227191956">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"><img src="img/logo.svg" alt=""></a>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li data-goto=".home-page" class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li data-goto=".about-me" class="menu__item"><a href="" class="menu__link">About Me</a></li>
+							<li data-goto=".contacts" class="menu__item"><a href="" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="home-page">
+				<div class="home-page__container">
+					<div class="home-page__title title-home-page">
+						<div class="title-home-page__text">CREATIVE UI<br><span>DESIGNER</span></div>
+						<div class="title-home-page__buttons buttons-home-page">
+							<a href="" class="button-home-page cyan">Hire me</a>
+							<a href="" class="button-home-page gray">Download CV <img src="img/home-page/btn.svg" alt="icon"></a>
+
+						</div>
+					</div>
+					<div class="home-page__image">
+						<img src="img/home-page/01.svg" alt="">
+					</div>
+				</div>
+			</section>
+			<section class="about-me">
+				<div class="about-me__container">
+					<div class="about-me__content">
+						<div class="about-me__title">About <span>me</span></div>
+						<div class="about-me__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+							libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent
+							per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis
+						</div>
+					</div>
+					<div class="about-me__image">
+						<img src="img/about-me/01.svg" alt="image">
+					</div>
+				</div>
+			</section>
+			<section class="works">
+				<div class="works__container">
+					<div class="works__title">My recent <span>works</span></div>
+					<div data-tabs class="works-tabs">
+						<nav data-tabs-titles class="works-tabs__navigation">
+							<button type="button" class="works-tabs__title _tab-active">All</button>
+							<button type="button" class="works-tabs__title">UI</button>
+							<button type="button" class="works-tabs__title">UX</button>
+							<button type="button" class="works-tabs__title">Design</button>
+						</nav>
+						<div data-tabs-body class="works-tabs__content">
+							<div class="works-tabs__body">
+								<div class="works-tabs__item">
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/01.webp" type="image/webp"><img src="img/works/01.png" alt="image"></picture>
+										</div>
+									</div>
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/02.webp" type="image/webp"><img src="img/works/02.png" alt="image"></picture>
+										</div>
+									</div>
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/03.webp" type="image/webp"><img src="img/works/03.png" alt="image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="works-tabs__body">
+								<div class="works-tabs__item">
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/01.webp" type="image/webp"><img src="img/works/01.png" alt="image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="works-tabs__body">
+								<div class="works-tabs__item">
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/02.webp" type="image/webp"><img src="img/works/02.png" alt="image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="works-tabs__body">
+								<div class="works-tabs__item">
+									<div class="works-tabs__item-body">
+										<div class="works-tabs__image">
+											<picture><source srcset="img/works/03.webp" type="image/webp"><img src="img/works/03.png" alt="image"></picture>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__content content-contacts">
+						<div class="content-contacts__title">Got a project in <span>mind?</span></div>
+						<img src="img/contacts/01.svg" alt="image">
+					</div>
+					<form action="" class="contacts__form">
+						<div class="user__info info-user">
+							<div class="info-user__name">
+								<div class="info-user__title">Your name</div>
+								<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Name" class="input">
+							</div>
+							<div class="info-user__email">
+								<div class="info-user__title">Your email</div>
+								<input autocomplete="off" type="email" name="form[]" data-error="Ошибка" placeholder="Email" class="input">
+							</div>
+						</div>
+						<div class="user__message message-user">
+							<div class="message-user__title">Your Message</div>
+							<textarea autocomplete="off" rows="10" name="form[]" placeholder="Message" data-error="Ошибка" class="input"></textarea>
+						</div>
+						<button type="submit" class="message-user__button">Send Message <img src="img/contacts/02.svg" alt=""></button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__menu footer-menu">
+					<nav class="footer-menu__body">
+						<ul class="footer-menu__list">
+							<li data-goto=".home-page" class="footer-menu__item"><img src="img/footer/01.svg" alt=""><a href="" class="footer-menu__link">Home</a></li>
+							<li data-goto=".about-me" class="footer-menu__item"><img src="img/footer/02.svg" alt=""><a href="" class="footer-menu__link">About me</a></li>
+							<li data-goto=".contacts" class="footer-menu__item"><img src="img/footer/03.svg" alt=""><a href="" class="footer-menu__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="footer__social">
+					<a href="" class="footer__link">
+						<img src="img/footer/04.svg" alt="">
+					</a>
+					<a href="" class="footer__link">
+						<img src="img/footer/05.svg" alt="">
+					</a>
+					<a href="" class="footer__link">
+						<img src="img/footer/06.svg" alt="">
+					</a>
+					<a href="" class="footer__link">
+						<img src="img/footer/07.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20221227191956"></script>
+</body>
+
+</html>
